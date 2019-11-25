@@ -1,0 +1,17 @@
+This is the documentation for Nicholas Learner's Proj9 for CS 202-1001 at UNR, due @ midnight, 11-20-19.
+
+The purpose of this program is to create (declare), implement, and use (test) ArrayQueue and NodeQueue
+objects, within provided specifications.
+
+All of the tests are listed when the program is run using the Makefile.
+
+A few notes:
+front() and back() for NodeQueue were not directly tested in the running program (you can see these tests
+commented out in proj9.cpp) because they caused a segmentation fault.
+pop() was not tested on an empty ArrayQueue or NodeQueue object.
+Out of all the methods in either ArrayQueue or NodeQueue, only NodeQueue's destructor outputs a message to
+the console.
+
+If I were to spend more time on the project, I would add bounds-checking before trying to test front() and
+back(), and I would clean up the testing process by adding a message in all of each class' methods.
+
